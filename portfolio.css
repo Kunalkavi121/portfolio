@@ -47,6 +47,7 @@ nav .left:hover{
 .right ul a:hover {
   color: rgb(129, 129, 227);
   font-size: 1.02rem;
+  text-decoration: underline rgb(129, 129, 227);
 }
 
 .sec_one {
@@ -148,8 +149,12 @@ section h1:hover{
     font-size: 1.6rem;
 }
 
+.verticalTitle a{
+  text-decoration: none;
+}
+
 .verticalTitle a h2:hover{
-  font-size: 1.8rem;
+  text-decoration: underline rgb(115, 66, 160);
 }
 
 .verticalDesc{
@@ -194,8 +199,7 @@ footer{
 }
 
 .footLinks li :hover{
-  font-size: 1.05rem;
-  color: wheat;
+  text-decoration: underline rgb(115, 66, 160);
 }
 
 footer h4{
@@ -215,5 +219,9 @@ img:hover{
 
 footer h3:hover{
   color: rgb(115, 66, 160);
+  text-decoration: underline rgb(115, 66, 160);
 }
 
+footer li a{
+  color:rgb(115, 66, 160);
+}
